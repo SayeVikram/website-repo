@@ -33,10 +33,10 @@ const AboutMe = () => {
 
     return(
         <div className="mt-13 mb-15">
-            <h2 className="text-5xl font-extrabold text-center">About my CS Journey</h2>
+            <h2 className="text-5xl font-extrabold text-center text-[#ADB7BE]">About my CS Journey</h2>
 
             <div className="mt-6 flex justify-evenly content-center xs:grid grid-cols-1">
-                <div className="mr-6 font-sans">
+                <div className="mr-6 font-sans text-[#ADB7BE]">
                     <p> I started off my journey with an arduino class that I took my 8th grade summer. 
                         While it was really simple circuitry -- just learned how to make LED circuits in 
                         that class -- I really found my passion for all things tech from then on.
@@ -65,7 +65,7 @@ const AboutMe = () => {
 
                 </div>
 
-                    <ul className="list-inside">
+                    <ul className="list-inside text-[#ADB7BE]">
                         {tabs.map((tab) => (
                             (tab.id === activeTab) ? tab.arr.map((arrElement) => (
                                 <li className="list-disc md:text-left text-center" key={tab.arr.indexOf(arrElement)}>{arrElement}</li>

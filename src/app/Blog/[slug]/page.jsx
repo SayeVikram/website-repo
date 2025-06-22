@@ -49,15 +49,15 @@ export default async function Post({params}){
 
     return(
 
-        <main className="bg-[#121212] m-0 h-screen">
+        <main className="bg-[#121212] m-0 h-screen min-w-full right-0 left-0 absolute">
         
        
         <NavBar/>
-        <div className="mt-15 bg-[#121212]">
+        <div className="mt-15 bg-[#121212] min-w-full">
         <div className="mb-10">
         <article className="ml-30 mb-5">
             <h1 className="text-5xl font-extrabold text-red-300 text-center">{post.title}</h1>
-            <div className="font-sans" dangerouslySetInnerHTML={{__html: htmlConvert}}/>
+            <div className="font-sans text-[#ADB7BE]" dangerouslySetInnerHTML={{__html: htmlConvert}}/>
         </article>
         <Link href="/Blog" className="text-red-300 underline font-extrabold ml-5 mt-5 mb-5"> ← Back to the Blog</Link>
         </div>
