@@ -55,7 +55,7 @@ export default async function Post({params}){
         <NavBar/>
         <div className="mt-15 bg-[#121212] min-w-full">
         <div className="mb-10">
-        <article className="ml-30 mb-5">
+        <article className="ml-18 mb-5">
             <h1 className="text-5xl font-extrabold text-red-300 text-center">{post.title}</h1>
             <div className="font-sans text-[#ADB7BE]" dangerouslySetInnerHTML={{__html: htmlConvert}}/>
         </article>
