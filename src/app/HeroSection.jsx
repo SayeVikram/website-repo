@@ -34,7 +34,7 @@ const HeroSection = () => {
                 </p>
                 <div className="place-self-center">
                     <a href="https://drive.google.com/file/d/1kgpgozUiF3ryMm1XKtt1Dr07I6d9k_fo/view?usp=sharing">
-                    <button className="bg-gradient-to-br from-blue-500 via-red-500   w-full sm:w-fit px-6 py-3 bg-white hover:bg-slate-200 rounded-full text-white hover:cursor-pointer border-none"> View CV </button>
+                    <button className="bg-gradient-to-br from-blue-500 via-red-500  w-fit px-6 py-3 bg-white hover:bg-slate-200 rounded-full text-white hover:cursor-pointer border-none"> View CV </button>
                     </a>
                 </div>
             </div>
