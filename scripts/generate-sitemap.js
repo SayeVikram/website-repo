@@ -4,9 +4,9 @@ const path = require('path');
 
 sitemap({
   baseUrl: "https://www.sayekarthikeyan.com",
-  pagesDirectory: path.resolve(__dirname, '../src'),
-  targetDirectory:path.resolve(__dirname, '../src/'),
+  pagesDirectory: path.resolve(__dirname, '../src/app'),
+  targetDirectory:path.resolve(__dirname, '../src/app'),
   ignoredExtensions: ["js", "map", "json", "xml", "png", "jpg", "jpeg", "svg"],
   ignoredPaths: ["404"],
-  allowFileExtensions: true
+  allowFileExtensions: false
 });
