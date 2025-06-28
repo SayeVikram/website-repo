@@ -10,6 +10,8 @@ import Footer from "@/app/Footer";
 
 
 
+
+
 const getAllPosts = () => {
     
     const filedir = path.join(process.cwd(), "src/app/posts")
