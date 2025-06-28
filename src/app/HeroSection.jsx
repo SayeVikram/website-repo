@@ -2,11 +2,17 @@
 import React from "react";
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
+import Head from "next/head";
+
 
 
 const HeroSection = () => {
     return(
       <section>
+        <Head>
+            <title>Saye Karthikeyan</title>
+            <meta property="og:title" content="Saye Karthikeyan" key="title" />
+        </Head>
         <div className="grid grid-cols-1 sm:grid-cols-12 md:grid-cols-12 place-self-left">
 
             <div className="col-span-6 place-self-center sm:mt-2 text-center">
