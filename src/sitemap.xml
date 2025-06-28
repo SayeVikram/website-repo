@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/AboutMe.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/Blog/[slug]/page.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/Blog/page.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/BlogCard.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/Contact/page.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/Footer.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/HeroSection.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/NavBar.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/Projects/page.jsx</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/Styles.css</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/favicon.ico</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/globals.css</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+
+	<url>
+		<loc>https://www.sayekarthikeyan.com/app/posts/path-forward.md</loc>
+		<lastmod>2025-06-27</lastmod>
+	</url>
+</urlset>
