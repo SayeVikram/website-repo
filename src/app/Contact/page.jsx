@@ -7,6 +7,7 @@ import { sendEmailAction } from "../EmailSend";
 import Footer from "../Footer";
 
 
+
 const Contact = () => {
     
     const [name, setName] = useState("")
@@ -14,10 +15,10 @@ const Contact = () => {
     const[content, setContent] = useState("")
     const [pending, startTransition] = useTransition();
     const [status, setStatus] = useState(null);
-
+ 
 
     function handleSubmit(e){
-        
+        //Testing comment
         e.preventDefault();
         startTransition(async () => {
         const res = await sendEmailAction({ name, email, content });
@@ -27,7 +28,7 @@ const Contact = () => {
         setEmail("")
         setContent("")
         });
-
+    
     }
 
     return(
