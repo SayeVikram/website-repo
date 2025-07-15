@@ -16,11 +16,9 @@ export default function SplashScreen({ onComplete }) {
 
     if (!splashElement || !circleElement || !logoElement) return
 
-    // Create the animation timeline
     const tl = anime.timeline({
       easing: 'easeInOutQuad',
       complete: () => {
-        // After animation completes, fade out the splash screen
         anime({
           targets: splashElement,
           opacity: 0,
@@ -33,7 +31,6 @@ export default function SplashScreen({ onComplete }) {
       }
     })
 
-    // First, fade in the logo
     tl.add({
       targets: logoElement,
       opacity: [0, 1],
@@ -42,7 +39,6 @@ export default function SplashScreen({ onComplete }) {
       easing: 'easeOutQuad'
     })
 
-    // Then animate the circle drawing
     tl.add({
       targets: circleElement,
       strokeDashoffset: [anime.setDashoffset, 0],
@@ -50,7 +46,6 @@ export default function SplashScreen({ onComplete }) {
       easing: 'easeInOutQuad'
     }, '-=100')
 
-    // Hold for a moment before fading out
     tl.add({
       duration: 200
     })
@@ -66,7 +61,6 @@ export default function SplashScreen({ onComplete }) {
       className="fixed inset-0 z-50 flex items-center justify-center bg-[#121212]"
     >
       <div className="relative flex items-center justify-center">
-        {/* Logo */}
         <div ref={logoRef} className="opacity-0 z-10">
           <Image
             src="/svk.png"
@@ -77,7 +71,6 @@ export default function SplashScreen({ onComplete }) {
           />
         </div>
         
-        {/* Animated circle */}
         <svg
           className="absolute"
           width="200"
