@@ -1,10 +1,8 @@
 "use client";
 import React from "react";
-import NavBar from "../NavBar";
 import { useState, useTransition } from "react";
 import { Resend } from "resend";
 import { sendEmailAction } from "../EmailSend";
-import Footer from "../Footer";
 
 
 
@@ -33,7 +31,6 @@ const Contact = () => {
 
     return(
         <main className="bg-[#121212] min-h-screen right-0 left-0 absolute">
-            <NavBar/>
             <h1 className="font-extrabold text-center mt-15 text-red-100">keep in touch!</h1>
             <form className="mt-20 flex flex-col justify-center place-self-center" onSubmit={handleSubmit}>
 
@@ -50,7 +47,6 @@ const Contact = () => {
                 <input type="submit" value="Submit" className=" mb-5 place-self-center bg-gradient-to-br from-blue-500 via-red-500   w-fit px-6 py-3 bg-white hover:bg-slate-200 rounded-full text-white hover:cursor-pointer border-none"/>
                 {status && <p className="mb-4 mt-4 text-center text-white">{status}</p>}
             </form>
-            <Footer/>
         </main>
     )
 
