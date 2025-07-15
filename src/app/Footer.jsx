@@ -13,7 +13,7 @@ const Footer = () => {
     return(
         <>
         <div className="fixed bottom-4 left-4 z-50">
-            {/* Hamburger Icon */}
+
             <button 
                 onClick={toggleMenu}
                 className="relative w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200 flex items-center justify-center group"
@@ -21,11 +21,11 @@ const Footer = () => {
                 <div className="w-6 h-6 flex flex-col justify-center items-center">
                     <div className={`w-5 h-0.5 bg-gray-700 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1' : ''}`}></div>
                     <div className={`w-5 h-0.5 bg-gray-700 my-1 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></div>
-                    <div className={`w-5 h-0.5 bg-gray-700 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1' : ''}`}></div>
+                    <div className={`w-5 h-0.5 bg-gray-700 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
                 </div>
             </button>
 
-            {/* Social Media Buttons */}
+
             <div className={`absolute bottom-16 left-0 transition-all duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}>
                 <div className="flex flex-col space-y-3">
                     <a 
