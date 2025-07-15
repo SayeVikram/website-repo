@@ -34,7 +34,7 @@ export default function SplashScreen({ onComplete }) {
     tl.add({
       targets: logoElement,
       opacity: [0, 1],
-      scale: [0.8, 1],
+      scale: [0.7, 0.9],
       duration: 300,
       easing: 'easeOutQuad'
     })
