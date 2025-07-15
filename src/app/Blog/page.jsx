@@ -1,11 +1,9 @@
 import React from "react";
-import NavBar from "../NavBar";
 import fs from "fs"
 import matter from "gray-matter"
 import path from "path"
 import Link from "next/link";
 import BlogCard from "../BlogCard";
-import Footer from "../Footer";
 
 export const getAllPosts = () => {
     
@@ -34,7 +32,6 @@ const Blog = () => {
     const collection = getAllPosts().reverse()
     return(
     <main className="flex min-h-screen flex-col bg-[#121212] right-0 left-0 absolute">
-      <NavBar/>
       <h1 className="text-5xl font-extrabold text-center text-white mt-30">posts</h1>
       <div className="m-20 place-self-center mb-40 text-[#ADB7BE]">
            {collection.map((item) => (
@@ -42,7 +39,6 @@ const Blog = () => {
            ))}
       </div>
       
-      <Footer/>
     </main>
         
     )
