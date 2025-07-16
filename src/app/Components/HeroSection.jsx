@@ -136,8 +136,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </ScrollFade>
-
-
+  
       </section>  
     );
 }

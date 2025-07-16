@@ -30,7 +30,7 @@ export const getAllPosts = () => {
 
 
 const Blog = () => {
-    const collection = getAllPosts().reverse()
+    const collection = getAllPosts()
     return(
         <BlogPageClient collection={collection}></BlogPageClient>
     )

@@ -49,7 +49,7 @@ export default async function Post({params}){
 
     return(
 
-        <main className="bg-[#121212] m-0 h-screen min-w-full right-0 left-0 absolute">
+        <main className="bg-[#121212] m-0 h-screen min-w-full right-0 left-0 absolute ml-10">
         
        
         <div className="mt-15 bg-[#121212] min-w-full">

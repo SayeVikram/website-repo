@@ -16,7 +16,7 @@ const Footer = () => {
 
             <button 
                 onClick={toggleMenu}
-                className="relative w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200 flex items-center justify-center group"
+                className="relative border-0 w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200 flex items-center justify-center group"
             >
                 <div className="w-6 h-6 flex flex-col justify-center items-center">
                     <div className={`w-5 h-0.5 bg-gray-700 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1' : ''}`}></div>
@@ -65,8 +65,18 @@ const Footer = () => {
                         />
                     </a>
                 </div>
+
+                
             </div>
+
+            
+
         </div>
+
+        
+        <p className="text-white mt-auto place-self-center">&copy; 2025 Saye Karthikeyan </p>
+            
+        
         </>
     )
 }
