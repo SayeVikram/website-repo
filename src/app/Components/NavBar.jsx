@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import {FolderIcon, FolderOpenIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
 
@@ -34,8 +34,8 @@ function classNames(...classes) {
             <DisclosureButton className="border-none group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 hover:border-none focus:ring-white focus:outline-hidden focus:ring-inset">
               <span className="absolute -inset-0.5" />
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" className="block size-6 group-data-open:hidden" />
-              <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
+              <FolderIcon aria-hidden="true" className="block size-6 group-data-open:hidden" />
+              <FolderOpenIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
