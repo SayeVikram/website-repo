@@ -30,6 +30,7 @@ const Footer = () => {
                 <div className="flex flex-col space-y-3">
                     <a 
                         href="https://www.linkedin.com/in/saye-vikram-karthikeyan-90850a258/"
+                        target="_blank" rel="noopener noreferrer"
                         className={`transform transition-all duration-300 delay-100 ${isMenuOpen ? 'translate-x-0' : '-translate-x-8'}`}
                     > 
                         <Image 
@@ -42,6 +43,7 @@ const Footer = () => {
                     </a>
                     <a 
                         href="https://www.instagram.com/sayegrill/"
+                        target="_blank" rel="noopener noreferrer"
                         className={`transform transition-all duration-300 delay-200 ${isMenuOpen ? 'translate-x-0' : '-translate-x-8'}`}
                     > 
                         <Image 
@@ -54,6 +56,7 @@ const Footer = () => {
                     </a>
                     <a 
                         href="https://github.com/SayeVikram"
+                        target="_blank" rel="noopener noreferrer"
                         className={`transform transition-all duration-300 delay-300 ${isMenuOpen ? 'translate-x-0' : '-translate-x-8'}`}
                     > 
                         <Image 
