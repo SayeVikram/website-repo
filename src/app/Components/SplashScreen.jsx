@@ -42,12 +42,12 @@ export default function SplashScreen({ onComplete }) {
     tl.add({
       targets: circleElement,
       strokeDashoffset: [anime.setDashoffset, 0],
-      duration: 1000,
+      duration: 500,
       easing: 'easeInOutQuad'
     }, '-=100')
 
     tl.add({
-      duration: 200
+      duration: 100
     })
 
     return () => {
