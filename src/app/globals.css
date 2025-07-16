@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 
 
+
 :root {
   --background: #121212;
   --foreground: #171717;
@@ -26,7 +27,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  cursor: url('/icons8-cursor-48.png'), auto;
 }
 
 @theme{
@@ -49,3 +49,22 @@ body {
 
   }
 }
+
+@theme{
+  --animate-infinite-scroll: infinite-scroll 30s linear infinite;
+
+  @keyframes infinite-scroll{
+
+    0%{
+        transform: translateX(0)
+    }
+
+    100%{
+      transform: translateX(calc(-50% - 20px))
+
+    }
+
+
+  }
+}
+

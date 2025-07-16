@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         backgroundColor: "#121212"
       }}>
         {showSplash && isHome && <SplashScreen onComplete={handleSplashComplete} />}
-        <div className={(showSplash && isHome) ? 'opacity-0' : 'opacity-100 transition-opacity duration-200 flex flex-col'}>
+        <div className={(showSplash && isHome) ? 'opacity-0' : 'opacity-100 transition-opacity duration-200 flex flex-col w-full'}>
           <NavBar/>
           {children}
           <Footer/>
