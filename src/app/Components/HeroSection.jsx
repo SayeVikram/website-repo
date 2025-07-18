@@ -73,7 +73,7 @@ const HeroSection = () => {
                         in Computer Science, and I plan on concentrating in AI or ML. I love to lift, hang out with friends, and play video games.
                     </p>
                     <div className="place-self-center">
-                        <a href="https://drive.google.com/file/d/1kgpgozUiF3ryMm1XKtt1Dr07I6d9k_fo/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1kgpgozUiF3ryMm1XKtt1Dr07I6d9k_fo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <button className="bg-gradient-to-br from-blue-500 via-red-500  w-fit px-6 py-3 bg-white hover:bg-slate-200 rounded-full text-white hover:cursor-pointer border-none"> View CV </button>
                         </a>
                     </div>
